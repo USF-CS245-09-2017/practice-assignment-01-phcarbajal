@@ -21,7 +21,7 @@ public class Practice1Test {
 		
 		for (String type : types) {
 			for (int i = 0; i < expectedValues.length; i++) {
-				if (factorial.factorial(expectedValues[i][0], type) != expectedValues[i][1]) {
+				if (factorial.Factorial(expectedValues[i][0], type) != expectedValues[i][1]) {
 					return false;
 				}
 			}
@@ -39,7 +39,7 @@ public class Practice1Test {
 		
 		for (String type : types) {
 			for (int i = 0; i < expectedValues.length; i++) {
-				if (fibonacci.fibonacci(expectedValues[i][0], type) != expectedValues[i][1]) {
+				if (fibonacci.Fibonacci(expectedValues[i][0], type) != expectedValues[i][1]) {
 					return false;
 				}
 			}
